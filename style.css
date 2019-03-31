@@ -185,6 +185,9 @@ header{
         font-family: "Germania One" ;
         margin-left:500px;
       }
+      .jumbotron .btn:hover{
+          background-color: rgba(0, 0, 0, 0.5)
+      }
     
     
 
