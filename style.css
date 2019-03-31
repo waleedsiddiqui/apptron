@@ -1,0 +1,191 @@
+*{
+    margin:0;
+    padding: 0;
+}
+body{
+    font-family: monospace;
+}
+header{
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(header.png);
+    height:90vh;
+    background-size: cover;
+    background-position: center;
+
+}
+.main-nav{
+    float: right;
+    list-style: none;
+    margin-top:40px;
+    max-width: 2500px;
+    position: relative;
+    
+    }
+  
+
+    .main-nav li{
+        display: inline-block;
+        
+
+    }
+    .main-nav li a{
+        
+        color:white;
+        text-decoration: none;
+        padding: 5px 20px;
+        margin-right: 20px;
+        font-family: "Roboto", sans-serif;
+        font-size: 15px;
+        
+    }
+    .main-nav li.active a{
+        border-top: 1px solid white;
+        border-bottom: 1px solid white;
+        
+    }
+    .main-nav li a:hover{
+        border: 1px solid white;
+        
+        transform: background 0.5s;
+    }
+    .logo img{ 
+        width: 130px;
+        height: auto;
+        float: left;
+        
+    }
+    .row{
+    
+    background-color:rgba(0, 0, 0, 0.5);
+    height: 90px; 
+    width: 100%;
+   position:fixed;
+   
+
+       
+    }
+
+    .hero{
+        position:absolute;
+        max-width: 1300px;
+         margin-left:0px;
+         margin-top:0px
+         
+    }
+    h1{
+        color: white;
+        text-transform: uppercase;
+        font-size:60px;
+        text-align: center;
+        max-width: 2000px;;
+     position: relative;
+     top: 420px;
+     left: 450px;   
+    }
+    h6{
+        color: white;
+        font-size: 30px;
+        text-align: center;
+        position: relative;
+        top: 450px;
+        left: 450px;
+        letter-spacing: 5px;
+    }
+    .button{
+        position: relative;
+        top: 520px;
+        left: 670px;
+        
+    }
+    .btn{
+        border: 1px solid white; 
+        color: white;
+        padding: 10px 30px;
+        text-decoration:none;
+        margin-right: 15px;
+        font-size: 13px;
+        text-transform: uppercase;
+    }
+    .btn-one{
+        background-color: darkorange;
+        font-family: "Roboto", sans-serif
+    }
+    .btn-two{
+        font-family: "Roboto", sans-serif;
+    }
+    .btn-two:hover{ 
+        background-color: darkorange;
+        transition: all .5s ease-in; 
+
+    }
+    .main .container{
+        text-align: center;
+       
+        font-family: 'Great vibes', cursive;
+        padding: 50px;
+       
+    }
+    .container h2{
+        font-size: 30px;
+    }
+    .container p{
+        font-size: 20px;
+    }
+    section{
+        
+        color: #c7d7df;
+        background-color: #002633 !important;
+        height: 50vh;
+    
+    }
+    .main .container p{
+        margin: 50px 80px 50px 0;
+    letter-spacing: 5px;   
+    }
+
+    .jumbotron {
+        background: url(http://s3.amazonaws.com/codecademy-content/projects/innovation-cloud/jumbotron_bg.jpg) center center;
+        background-size: cover;
+        height: 600px; 
+      }
+    
+      .jumbotron .container {
+        position: relative;
+        top: 220px;
+        right: 220px;
+      }
+    
+      .jumbotron h2 {
+        color: #fff;
+        text-align: right; 
+      }
+      
+      .jumbotron p {
+        color: #fff; 
+        text-align: right; 
+        font-family: "Germania One" monospace;
+      }
+      
+      .jumbotron .btn {
+        margin: 10px 10px 0;
+        float: right; 
+      }
+      
+      .footer { 
+        background: #000;
+        height: 80px; 
+        padding-bottom: 50px;
+      }
+      
+      .footer p { 
+        color: #fff;
+        font-size: 14px;  
+        height: 80px; 
+        line-height: 80px;
+        margin: 0;  
+        font-family: "Germania One" ;
+        margin-left:500px;
+      }
+    
+    
+
+    
